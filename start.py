@@ -1599,7 +1599,7 @@ if __name__ == '__main__':
                             or bombardier_path.with_suffix('.exe').exists()
                     ), (
                         "Install bombardier: "
-                        "https://github.com/MHProDev/chiDoOs/wiki/BOMB-method"
+                        "https://github.com/ilyes009/chiDoOs/wiki/BOMB-method"
                     )
 
                 if len(argv) == 9:
@@ -1649,7 +1649,7 @@ if __name__ == '__main__':
 
                 if method in Methods.LAYER4_AMP:
                     logger.warning("this method need spoofable servers please check")
-                    logger.warning("https://github.com/MHProDev/chiDoOs/wiki/Amplification-ddos-attack")
+                    logger.warning("https://github.com/ilyes009/chiDoOs/wiki/Amplification-ddos-attack")
 
                 threads = int(argv[3])
                 timer = int(argv[4])
